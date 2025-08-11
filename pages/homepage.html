@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teknic Steel - Precision You Can Build On | Structural Steel Design & Detailing</title>
+    <meta name="description" content="Professional structural steel design and detailing consultancy using SDS/2 technology. Transform architectural visions into precise, constructible steel structures with 99.8% accuracy." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fsteelforge5042back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-custom sticky top-0 z-50">
+        <nav class="container-max px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <svg class="w-10 h-10 text-primary mr-3" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="4" y="4" width="32" height="32" rx="4" fill="currentColor"/>
+                        <path d="M12 16h16v2H12v-2zm0 4h16v2H12v-2zm0 4h12v2H12v-2z" fill="white"/>
+                        <circle cx="30" cy="12" r="3" fill="#FF6B35"/>
+                    </svg>
+                    <div>
+                        <h1 class="text-xl font-heading font-bold text-primary">Teknic Steel</h1>
+                        <p class="text-xs text-secondary-600">Structural Excellence</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-primary font-semibold border-b-2 border-accent">Home</a>
+                    <a href="services_overview.html" class="text-secondary-600 hover:text-primary transition-smooth">Services</a>
+                    <a href="portfolio_case_studies.html" class="text-secondary-600 hover:text-primary transition-smooth">Portfolio</a>
+                    <a href="about_us.html" class="text-secondary-600 hover:text-primary transition-smooth">About</a>
+                    <a href="contact_quote_request.html" class="btn-primary">Request Quote</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="lg:hidden p-2" id="mobile-menu-btn">
+                    <svg class="w-6 h-6 text-secondary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="lg:hidden hidden" id="mobile-menu">
+                <div class="py-4 space-y-4 border-t border-gray-200">
+                    <a href="homepage.html" class="block text-primary font-semibold">Home</a>
+                    <a href="services_overview.html" class="block text-secondary-600">Services</a>
+                    <a href="portfolio_case_studies.html" class="block text-secondary-600">Portfolio</a>
+                    <a href="about_us.html" class="block text-secondary-600">About</a>
+                    <a href="contact_quote_request.html" class="block btn-primary text-center">Request Quote</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Interactive 3D Model -->
+    <section class="relative bg-gradient-to-br from-primary-50 to-primary-100 overflow-hidden">
+        <div class="container-max px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl lg:text-6xl font-heading font-bold text-primary leading-tight">
+                            Precision You Can <span class="text-gradient">Build On</span>
+                        </h1>
+                        <p class="text-lg text-secondary-600 max-w-xl">
+                            Transform complex architectural visions into precise, constructible steel structures using cutting-edge SDS/2 technology and 15+ years of industry expertise.
+                        </p>
+                    </div>
+
+                    <!-- Key Benefits -->
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm font-semibold text-secondary-700">99.8% Accuracy</span>
+                        </div>
+                        <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm font-semibold text-secondary-700">SDS/2 Certified</span>
+                        </div>
+                        <div class="flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-sm font-semibold text-secondary-700">AISC Compliant</span>
+                        </div>
+                    </div>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="contact_quote_request.html" class="btn-primary text-center">
+                            Request Quote
+                            <svg class="w-5 h-5 ml-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                        <a href="portfolio_case_studies.html" class="btn-outline text-center">
+                            View Portfolio
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Interactive 3D Model Placeholder -->
+                <div class="relative">
+                    <div class="bg-white rounded-2xl shadow-custom-lg p-8 aspect-square flex items-center justify-center relative overflow-hidden">
+                        <!-- 3D Model Container -->
+                        <div class="w-full h-full bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl flex items-center justify-center relative">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="3D Steel Structure Model" class="w-full h-full object-cover rounded-xl opacity-80" onerror="this.src='https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                            
+                            <!-- Interactive Overlay -->
+                            <div class="absolute inset-0 bg-primary bg-opacity-20 rounded-xl flex items-center justify-center">
+                                <div class="text-center text-white">
+                                    <svg class="w-16 h-16 mx-auto mb-4 animate-pulse" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                                        <path fill-rule="evenodd" d="M.458 10C1.732  5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <p class="text-sm font-semibold">Interactive 3D Model</p>
+                                    <p class="text-xs opacity-90">Click to explore</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Stats -->
+                        <div class="absolute -top-4 -right-4 bg-accent text-white px-4 py-2 rounded-lg shadow-lg">
+                            <p class="text-sm font-bold">25+ Projects</p>
+                        </div>
+                        <div class="absolute -bottom-4 -left-4 bg-success text-white px-4 py-2 rounded-lg shadow-lg">
+                            <p class="text-sm font-bold">15+ Years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section-padding bg-surface">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Comprehensive Steel Solutions
+                </h2>
+                <p class="text-lg text-secondary-600 max-w-3xl mx-auto">
+                    From initial concept to final fabrication drawings, we deliver precision-engineered solutions that streamline your construction process.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="card group hover:shadow-custom-lg transition-all duration-300">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-200 transition-colors">
+                            <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-primary mb-4">Structural Steel Detailing</h3>
+                        <p class="text-secondary-600 mb-6">
+                            Comprehensive detailing services using SDS/2 software for accurate fabrication and erection drawings with 99.8% precision.
+                        </p>
+                        <a href="services_overview.html" class="text-accent font-semibold hover:text-accent-600 transition-colors">
+                            Learn More →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card group hover:shadow-custom-lg transition-all duration-300">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-200 transition-colors">
+                            <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-primary mb-4">3D Modeling & BIM</h3>
+                        <p class="text-secondary-600 mb-6">
+                            Advanced 3D modeling and BIM coordination services ensuring seamless integration with architectural and MEP systems.
+                        </p>
+                        <a href="services_overview.html" class="text-accent font-semibold hover:text-accent-600 transition-colors">
+                            Learn More →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card group hover:shadow-custom-lg transition-all duration-300">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-200 transition-colors">
+                            <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold text-primary mb-4">Connection Design</h3>
+                        <p class="text-secondary-600 mb-6">
+                            Specialized connection design and analysis ensuring structural integrity and code compliance for all steel connections.
+                        </p>
+                        <a href="services_overview.html" class="text-accent font-semibold hover:text-accent-600 transition-colors">
+                            Learn More →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Project Showcase -->
+    <section class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Recent Project Showcase
+                </h2>
+                <p class="text-lg text-secondary-600 max-w-3xl mx-auto">
+                    See how we transform architectural concepts into detailed fabrication-ready models with precision and efficiency.
+                </p>
+            </div>
+
+            <!-- Project Carousel -->
+            <div class="relative">
+                <div class="overflow-hidden rounded-2xl">
+                    <div class="flex transition-transform duration-500" id="project-carousel">
+                        <!-- Project 1 -->
+                        <div class="w-full flex-shrink-0">
+                            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                                <div class="space-y-6">
+                                    <div>
+                                        <span class="inline-block bg-accent-100 text-accent-700 px-3 py-1 rounded-full text-sm font-semibold mb-4">
+                                            Commercial Complex
+                                        </span>
+                                        <h3 class="text-2xl font-heading font-bold text-primary mb-4">
+                                            Downtown Office Tower
+                                        </h3>
+                                        <p class="text-secondary-600 mb-6">
+                                            45-story mixed-use development featuring complex steel framing with custom connections and advanced BIM coordination. Delivered 2 weeks ahead of schedule with zero rework required.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="grid grid-cols-3 gap-4">
+                                        <div class="text-center">
+                                            <p class="text-2xl font-bold text-primary">2,500</p>
+                                            <p class="text-sm text-secondary-600">Tons of Steel</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="text-2xl font-bold text-primary">8 Weeks</p>
+                                            <p class="text-sm text-secondary-600">Completion Time</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="text-2xl font-bold text-primary">100%</p>
+                                            <p class="text-sm text-secondary-600">Accuracy Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative">
+                                    <div class="aspect-video bg-gray-100 rounded-xl overflow-hidden">
+                                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Downtown Office Tower Project" class="w-full h-full object-cover" onerror="this.src='https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                    </div>
+                                    <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md">
+                                        <span class="text-sm font-semibold text-success">Completed</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="w-full flex-shrink-0">
+                            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                                <div class="space-y-6">
+                                    <div>
+                                        <span class="inline-block bg-accent-100 text-accent-700 px-3 py-1 rounded-full text-sm font-semibold mb-4">
+                                            Industrial Facility
+                                        </span>
+                                        <h3 class="text-2xl font-heading font-bold text-primary mb-4">
+                                            Manufacturing Plant Expansion
+                                        </h3>
+                                        <p class="text-secondary-600 mb-6">
+                                            Large-span industrial structure with specialized crane systems and heavy equipment foundations. Complex connection details resolved through advanced 3D modeling.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="grid grid-cols-3 gap-4">
+                                        <div class="text-center">
+                                            <p class="text-2xl font-bold text-primary">1,800</p>
+                                            <p class="text-sm text-secondary-600">Tons of Steel</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="text-2xl font-bold text-primary">6 Weeks</p>
+                                            <p class="text-sm text-secondary-600">Completion Time</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <p class="text-2xl font-bold text-primary">99.9%</p>
+                                            <p class="text-sm text-secondary-600">Accuracy Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative">
+                                    <div class="aspect-video bg-gray-100 rounded-xl overflow-hidden">
+                                        <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Manufacturing Plant Expansion Project" class="w-full h-full object-cover" onerror="this.src='https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                    </div>
+                                    <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md">
+                                        <span class="text-sm font-semibold text-success">Completed</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow" onclick="previousProject()">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                <button class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow" onclick="nextProject()">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </button>
+
+                <!-- Carousel Indicators -->
+                <div class="flex justify-center mt-8 space-x-2">
+                    <button class="w-3 h-3 rounded-full bg-primary transition-colors" onclick="goToProject(0)"></button>
+                    <button class="w-3 h-3 rounded-full bg-secondary-300 transition-colors" onclick="goToProject(1)"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Metrics & Certifications -->
+    <section class="section-padding bg-primary text-white">
+        <div class="container-max">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <!-- Metric 1 -->
+                <div class="space-y-4">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold">99.8%</p>
+                        <p class="text-primary-200">Accuracy Rate</p>
+                    </div>
+                </div>
+
+                <!-- Metric 2 -->
+                <div class="space-y-4">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold">25+</p>
+                        <p class="text-primary-200">Projects Completed</p>
+                    </div>
+                </div>
+
+                <!-- Metric 3 -->
+                <div class="space-y-4">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold">15+</p>
+                        <p class="text-primary-200">Years Experience</p>
+                    </div>
+                </div>
+
+                <!-- Metric 4 -->
+                <div class="space-y-4">
+                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold">50+</p>
+                        <p class="text-primary-200">Team Members</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+
+    <!-- CTA Section -->
+    <section class="section-padding bg-white">
+        <div class="container-max">
+            <div class="bg-gradient-to-r from-primary to-primary-700 rounded-3xl p-12 text-center text-white">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold mb-6">
+                    Ready to Transform Your Next Project?
+                </h2>
+                <p class="text-xl text-primary-100 mb-8 max-w-3xl mx-auto">
+                    Partner with Teknic Steel for precision-engineered steel solutions that deliver on time, every time. Get your free project consultation today.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="contact_quote_request.html" class="bg-accent hover:bg-accent-600 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 inline-flex items-center justify-center">
+                        Get Free Quote
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                    <a href="portfolio_case_studies.html" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 inline-flex items-center justify-center">
+                        View Our Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white">
+        <div class="container-max px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <svg class="w-8 h-8 text-accent mr-3" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="32" height="32" rx="4" fill="currentColor"/>
+                            <path d="M12 16h16v2H12v-2zm0 4h16v2H12v-2zm0 4h12v2H12v-2z" fill="white"/>
+                            <circle cx="30" cy="12" r="3" fill="#FF6B35"/>
+                        </svg>
+                        <div>
+                            <h3 class="text-xl font-heading font-bold">Teknic Steel</h3>
+                            <p class="text-sm text-secondary-300">Structural Excellence</p>
+                        </div>
+                    </div>
+                    <p class="text-secondary-300">
+                        Precision-engineered steel solutions using cutting-edge SDS/2 technology and 15+ years of industry expertise.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="homepage.html" class="text-secondary-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="services_overview.html" class="text-secondary-300 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="portfolio_case_studies.html" class="text-secondary-300 hover:text-white transition-colors">Portfolio</a></li>
+                        <li><a href="about_us.html" class="text-secondary-300 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="contact_quote_request.html" class="text-secondary-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services_overview.html" class="text-secondary-300 hover:text-white transition-colors">Steel Detailing</a></li>
+                        <li><a href="services_overview.html" class="text-secondary-300 hover:text-white transition-colors">3D Modeling</a></li>
+                        <li><a href="services_overview.html" class="text-secondary-300 hover:text-white transition-colors">BIM Coordination</a></li>
+                        <li><a href="services_overview.html" class="text-secondary-300 hover:text-white transition-colors">Connection Design</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-heading font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <span class="text-secondary-300">(555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <span class="text-secondary-300">info@steelforgepro.com</span>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-accent mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <span class="text-secondary-300">123 Steel Avenue<br />Industrial District, TX 75001</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-secondary-600 mt-12 pt-8 text-center">
+                <p class="text-secondary-300">
+                    © 2025 Teknic Steel. All Rights Reserved. | Privacy Policy | Terms of Service
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Project carousel functionality
+        let currentProject = 0;
+        const totalProjects = 2;
+
+        function nextProject() {
+            currentProject = (currentProject + 1) % totalProjects;
+            updateCarousel();
+        }
+
+        function previousProject() {
+            currentProject = (currentProject - 1 + totalProjects) % totalProjects;
+            updateCarousel();
+        }
+
+        function goToProject(index) {
+            currentProject = index;
+            updateCarousel();
+        }
+
+        function updateCarousel() {
+            const carousel = document.getElementById('project-carousel');
+            const indicators = document.querySelectorAll('.flex.justify-center.mt-8.space-x-2 button');
+            
+            carousel.style.transform = `translateX(-${currentProject * 100}%)`;
+            
+            indicators.forEach((indicator, index) => {
+                if (index === currentProject) {
+                    indicator.classList.remove('bg-secondary-300');
+                    indicator.classList.add('bg-primary');
+                } else {
+                    indicator.classList.remove('bg-primary');
+                    indicator.classList.add('bg-secondary-300');
+                }
+            });
+        }
+
+        // Auto-advance carousel
+        setInterval(nextProject, 8000);
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
